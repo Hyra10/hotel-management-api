@@ -21,7 +21,7 @@
   {
     "host": "127.0.0.1",
     "port": 5432,
-    "databaseName": "dev-to-clone",
+    "databaseName": "hotel-management",
     "user": "postgres",
     "password": "123",
     "databaseType": "postgres",

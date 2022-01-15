@@ -1,29 +1,21 @@
-# README #
-Whatsssappp! 222
-This README would normally document whatever steps are necessary to get your application up and running.
+# Hotel Management Api
 
-### What is this repository for? ###
+This project was created when I was in the University
+the idea to build this app came up after knowing that teachers used just paper and pen to mimc a real hotel management app
+so I decided to create a MVP that mimics what a real hotel managament app does
+but just for a turism teacher to teach their students a simulation of a real hotel management app
+where you can create hotels, rooms, activity rooms, clients, staff.
+you can also book a room or an activity room.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Before you start
 
-### How do I get set up? ###
+Make sure that you do `npm install` to install all the dependencies needed
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+After that, you can either run the app or test the app with the available scripts explained below
 
-### Contribution guidelines ###
+### How do I get set up?
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+This api uses typeorm to build the DB,
+you have to install postgress in your machine and create a local hotel-management database
+after that you can just do `npm run start`
+it will start listening on [http://localhost:4000](http://localhost:4000)

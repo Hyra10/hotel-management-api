@@ -11,7 +11,7 @@ export const testConn = (drop: boolean = false) => {
     port: 5432,
     username: 'postgres',
     password: 'root',
-    database: 'dev-to-clone-test',
+    database: 'hotel-management-test',
     synchronize: drop,
     dropSchema: drop,
     logging: false,
